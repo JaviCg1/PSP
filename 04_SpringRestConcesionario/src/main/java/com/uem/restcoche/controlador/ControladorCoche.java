@@ -38,6 +38,7 @@ public class ControladorCoche {
 		List<Coche> lista = gp.listar();
 		ResponseEntity<List<Coche>> re = 
 				new ResponseEntity<List<Coche>>(lista, HttpStatus.OK);
+		String S;
 		return re;
 	}
 	
